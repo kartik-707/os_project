@@ -4,11 +4,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); /* deep black-blue gradient */
+    background-color: #6B8585 ; /* deep black-blue gradient */
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
     min-height: 100vh;
     display: flex;
     justify-content: center;
